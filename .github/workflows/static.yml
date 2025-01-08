@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTTD Kelsterbach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-logo">
+                <img src="images/west-thrakien-logo.jpg" alt="West Thrakien Logo" class="logo">
+            </div>
+            <div class="header-title">
+                <h1>Willkommen bei BTTD Kelsterbach</h1>
+                <p class="subtitle">Kulturelle Brücke zwischen Westthrakien und Deutschland</p>
+            </div>
+            <div class="language-selector">
+                <select id="language-dropdown" onchange="changeLanguage()">
+                    <option value="de">Deutsch</option>
+                    <option value="en">English</option>
+                    <option value="tr">Türkçe</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#geschichte" id="geschichte-link">Geschichte</a></li>
+            <li><a href="#vorstand" id="vorstand-link">Unser Vorstand</a></li>
+            <li><a href="#galerie" id="galerie-link">Galerie</a></li>
+            <li><a href="#kontakt" id="kontakt-link">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="vorstand">
+        <div class="container">
+            <h2 id="board-title">Unser Vorstand</h2>
+            
+            <div class="mitglied">
+                <img src="images/fidan-bektas.jpg" alt="Fidan Bektas">
+                <h3 id="president">Präsident: Fidan Bektas</h3>
+                <p>Fidan Bektas ist Präsident des Vereins und kümmert sich um die Gesamtleitung und die strategische Ausrichtung des Vereins.</p>
+            </div>
+            
+            <div class="mitglied">
+                <img src="images/mahmut-mute.jpg" alt="Mahmut Mute">
+                <h3 id="voristzende">Vorsitzende: Mahmut Mute</h3>
+                <p>Mahmut Mute arbeitet eng mit dem Präsidenten zusammen und leitet die Vereinsaktivitäten.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/sedat-faikoglu.jpg" alt="Sedat Faikoglu">
+                <h3 id="secretary">Sekretär: Sedat Faikoglu</h3>
+                <p>Sedat Faikoglu ist verantwortlich für die Verwaltung und Organisation von Vereinsdokumenten und Kommunikation.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/sami-tarik.jpg" alt="Sami Tarik">
+                <h3 id="secretary2">Sekretär: Sami Tarik</h3>
+                <p>Sami Tarik unterstützt den Verein in administrativen Aufgaben und bei der Organisation von Veranstaltungen.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/mustafa-hacibedel.jpg" alt="Mustafa Hacibedel">
+                <h3 id="treasurer">Kassenwart: Mustafa Hacibedel</h3>
+                <p>Mustafa Hacibedel verwaltet die Finanzen des Vereins und sorgt für die Budgetplanung und -überwachung.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/erhan-hacibedel.jpg" alt="Erhan Hacibedel">
+                <h3 id="treasurer2">Kassenwart: Erhan Hacibedel</h3>
+                <p>Erhan Hacibedel hilft bei der Verwaltung der Finanzen und sorgt für transparente Finanzprozesse im Verein.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/enes-padali.jpg" alt="Enes Padali">
+                <h3 id="culture-media">Kultur und Medien: Enes Padali</h3>
+                <p>Enes Padali ist für die kulturellen Aktivitäten des Vereins und die Medienarbeit zuständig.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/enes-dudukcu.jpg" alt="Enes Düdükcü">
+                <h3 id="culture-media2">Kultur und Medien: Enes Düdükcü</h3>
+                <p>Enes Düdükcü arbeitet im Bereich der kulturellen und medialen Kommunikation und bereichert den Verein mit kreativen Ideen.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/huseyin-budur.jpg" alt="Hüseyin Budur">
+                <h3 id="youth-responsible">Jugendverantwortlicher: Hüseyin Budur</h3>
+                <p>Hüseyin Budur ist zuständig für die Aktivitäten und Förderung der Jugend im Verein.</p>
+            </div>
+
+            <div class="mitglied">
+                <img src="images/yusuf-bektas.jpg" alt="Yusuf Bektas">
+                <h3 id="youth-responsible2">Jugendverantwortlicher: Yusuf Bektas</h3>
+                <p>Yusuf Bektas arbeitet eng mit Hüseyin Budur zusammen und sorgt für die Integration der Jugend in die Vereinsaktivitäten.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">&copy; 2025 BTTD Kelsterbach. Alle Rechte vorbehalten.</p>
+            <div>
+                <a href="https://www.instagram.com/dein_verein" target="_blank" id="instagram-link">Instagram</a>
+                <a href="https://www.facebook.com/dein_verein" target="_blank" id="facebook-link">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="language.js"></script>
+</body>
+</html>
+
